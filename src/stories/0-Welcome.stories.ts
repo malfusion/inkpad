@@ -1,11 +1,12 @@
-import { Welcome } from '@storybook/angular/demo';
+// import { Welcome } from '@storybook/angular/demo';
+import { ArtsComponent } from 'src/app/arts/arts.component';
 
 export default {
-  title: 'Welcome',
+  title: 'Art Piece 1',
 };
 
 export const toStorybook = () => ({
-  component: Welcome,
+  component: ArtsComponent,
   props: {},
 });
 
